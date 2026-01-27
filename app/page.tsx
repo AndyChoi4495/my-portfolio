@@ -353,7 +353,7 @@ export default function Portfolio() {
           </div>
           <div className="mt-16 flex justify-center gap-12 text-[10px] uppercase tracking-[0.3em] font-bold text-zinc-600">
             <a
-              href="https://github.com"
+              href="https://github.com/AndyChoi4495"
               target="_blank"
               className="hover:text-white transition-colors underline underline-offset-4"
             >
