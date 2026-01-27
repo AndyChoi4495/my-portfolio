@@ -349,7 +349,6 @@ export default function Portfolio() {
             yun4495@gmail.com
           </a>
           <div className="mt-16 text-zinc-500 text-sm tracking-widest flex flex-col gap-2 italic font-medium text-white">
-            <span>(647) 870-5214</span>
             <span>Toronto, Ontario, Canada</span>
           </div>
           <div className="mt-16 flex justify-center gap-12 text-[10px] uppercase tracking-[0.3em] font-bold text-zinc-600">
