@@ -179,7 +179,7 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-bold uppercase tracking-tighter text-white group-hover:text-zinc-400 transition-colors">
                     AI-Powered Financial Hub
                   </h3>
-                  <span className="text-zinc-600 font-mono text-sm">[2026]</span>
+                  <span className="text-zinc-600 font-mono text-sm">[2025]</span>
                 </div>
                 <p className="text-zinc-500 text-[11px] mb-4 font-bold uppercase tracking-wider italic leading-relaxed">
                   React · Node.js · MSA · Gemini API · PostgreSQL · Supabase ·
