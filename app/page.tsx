@@ -259,7 +259,63 @@ export default function Portfolio() {
             </a>
           </motion.div>
 
-          {[3, 4].map((num) => (
+          {/* Project 3: Dividend Stock Tracker */}
+          <motion.div {...animProps}>
+            <a
+              href="https://dividendstocktracker-three.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col gap-6 block cursor-pointer"
+            >
+              <div className="w-full aspect-[4/3] bg-zinc-900 overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-700 rounded-sm">
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/tracker.png"
+                    alt="Dividend Stock Tracker"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-1000"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center z-10">
+                  <span className="text-zinc-400 text-[10px] tracking-[0.4em] uppercase mb-4">
+                    Visit the Website ↗
+                  </span>
+                  <span className="text-white text-xs font-bold tracking-[0.2em] uppercase border border-white/20 px-4 py-2">
+                    Real-Time Insights
+                  </span>
+                </div>
+              </div>
+
+              <div className="border-b border-zinc-900 pb-6">
+                <div className="flex justify-between items-start mb-4">
+                  <h3 className="text-2xl font-bold uppercase tracking-tighter text-white group-hover:text-zinc-400 transition-colors">
+                    Dividend Stock Tracker
+                  </h3>
+                  <span className="text-zinc-600 font-mono text-sm">[2025]</span>
+                </div>
+                <p className="text-zinc-500 text-[11px] mb-4 font-bold uppercase tracking-wider italic leading-relaxed">
+                  React · Next.js · Node.js · REST API · PostgreSQL
+                </p>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-4 text-pretty">
+                  A web application for tracking dividend-paying stocks and
+                  visualizing income over time. Lets users monitor their
+                  portfolio, follow payout schedules, and project future
+                  dividend earnings at a glance.
+                </p>
+                <div className="flex flex-wrap gap-2 opacity-60 group-hover:opacity-100 transition-opacity font-bold">
+                  <span className="text-[9px] border border-zinc-800 px-2 py-1 rounded text-zinc-500 uppercase tracking-tighter">
+                    Portfolio Tracking
+                  </span>
+                  <span className="text-[9px] border border-zinc-800 px-2 py-1 rounded text-zinc-500 uppercase tracking-tighter">
+                    Dividend Insights
+                  </span>
+                </div>
+              </div>
+            </a>
+          </motion.div>
+
+          {[4].map((num) => (
             <motion.div key={num} {...animProps}>
               <div className="group flex flex-col gap-6 opacity-40 hover:opacity-100 transition-opacity">
                 <div className="w-full aspect-[4/3] bg-zinc-900 overflow-hidden relative grayscale transition-all duration-700 rounded-sm">
