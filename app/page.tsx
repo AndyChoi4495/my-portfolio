@@ -66,14 +66,14 @@ export default function Portfolio() {
           <motion.div {...animProps} className="md:col-span-8">
             <h3 className="text-3xl md:text-5xl font-medium leading-tight text-white tracking-tight">
               Full Stack Developer & <br />
-              <span className="text-zinc-500">Software Engineering Graduate.</span>
+              <span className="text-zinc-500">Master’s Student at Ontario Tech University.</span>
             </h3>
 
             <div className="mt-10 space-y-6 text-lg text-zinc-400 max-w-2xl leading-relaxed">
               <p>
-                As an **Honors graduate in Software Development from Seneca
-                Polytechnic**, I am a technically advanced developer with a strong
-                passion for building and optimizing high-performance applications.
+                Software Developer and current Master's student at Ontario Tech University, 
+                holding an Honors degree in Software Development from Seneca Polytechnic. 
+                I focus on developing clean, efficient code and optimizing distributed, high-performance software systems.
               </p>
               <p>
                 Through my internships at Needlist.org and Kubetools, I have proven my
