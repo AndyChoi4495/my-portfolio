@@ -147,7 +147,65 @@ export default function Portfolio() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-          {/* Project 1: Dividend Stock Tracker */}
+          {/* Project 1: jobHunter */}
+          <motion.div {...animProps}>
+            <a
+              href="https://andychoi4495.github.io/jobHunter/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col gap-6 block cursor-pointer"
+            >
+              <div className="w-full aspect-[4/3] bg-zinc-900 overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-700 rounded-sm">
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/jobhunter.png"
+                    alt="jobHunter public job board"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-1000"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center z-10">
+                  <span className="text-zinc-400 text-[10px] tracking-[0.4em] uppercase mb-4">
+                    Visit the Job Board ↗
+                  </span>
+                  <span className="text-white text-xs font-bold tracking-[0.2em] uppercase border border-white/20 px-4 py-2">
+                    Automated Pipeline
+                  </span>
+                </div>
+              </div>
+
+              <div className="border-b border-zinc-900 pb-6">
+                <div className="flex justify-between items-start mb-4">
+                  <h3 className="text-2xl font-bold uppercase tracking-tighter text-white group-hover:text-zinc-400 transition-colors">
+                    jobHunter
+                  </h3>
+                  <span className="text-zinc-600 font-mono text-sm">[2026]</span>
+                </div>
+                <p className="text-zinc-500 text-[11px] mb-4 font-bold uppercase tracking-wider italic leading-relaxed">
+                  Python · GitHub Actions · Notion API · Discord Webhooks · GitHub
+                  Pages · pytest
+                </p>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-4 text-pretty">
+                  An automated job-search pipeline that collects ~6,000 postings
+                  per run from 4 sources, filters and deduplicates them down to
+                  ~650 relevant Canadian developer roles, and syncs new ones to
+                  Notion with Discord alerts. Publishes a live job board on GitHub
+                  Pages, with private application data kept out by design.
+                </p>
+                <div className="flex flex-wrap gap-2 opacity-60 group-hover:opacity-100 transition-opacity font-bold">
+                  <span className="text-[9px] border border-zinc-800 px-2 py-1 rounded text-zinc-500 uppercase tracking-tighter">
+                    Scheduled Automation
+                  </span>
+                  <span className="text-[9px] border border-zinc-800 px-2 py-1 rounded text-zinc-500 uppercase tracking-tighter">
+                    Live Job Board
+                  </span>
+                </div>
+              </div>
+            </a>
+          </motion.div>
+
+          {/* Project 2: Dividend Stock Tracker */}
           <motion.div {...animProps}>
             <a
               href="https://dividendstocktracker-three.vercel.app/"
@@ -205,7 +263,7 @@ export default function Portfolio() {
             </a>
           </motion.div>
 
-          {/* Project 2: AI-Powered Financial Hub */}
+          {/* Project 3: AI-Powered Financial Hub */}
           <motion.div {...animProps}>
             <a
               href="https://personal-expense-tracker-front-end.vercel.app/"
@@ -260,7 +318,7 @@ export default function Portfolio() {
               </div>
             </a>
           </motion.div>
-          {/* Project 3: Book Inventory */}
+          {/* Project 4: Book Inventory */}
           <motion.div {...animProps}>
             <a
               href="https://book-inventory-frontend-plum.vercel.app"
@@ -318,7 +376,7 @@ export default function Portfolio() {
             </a>
           </motion.div>
 
-          {[4].map((num) => (
+          {[5].map((num) => (
             <motion.div key={num} {...animProps}>
               <div className="group flex flex-col gap-6 opacity-40 hover:opacity-100 transition-opacity">
                 <div className="w-full aspect-[4/3] bg-zinc-900 overflow-hidden relative grayscale transition-all duration-700 rounded-sm">
