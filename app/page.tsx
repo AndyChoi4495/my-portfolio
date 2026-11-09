@@ -71,7 +71,7 @@ export default function Portfolio() {
 
             <div className="mt-10 space-y-6 text-lg text-zinc-400 max-w-2xl leading-relaxed">
               <p>
-                Software Developer and current Master's student at Ontario Tech University, 
+                Software Developer and current Master&apos;s student at Ontario Tech University, 
                 holding an Honors degree in Software Development from Seneca Polytechnic. 
                 I focus on developing clean, efficient code and optimizing distributed, high-performance software systems.
               </p>
