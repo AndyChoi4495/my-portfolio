@@ -42,16 +42,16 @@ const projects = [
     tags: ['AI Advisor', 'Microservices'],
   },
   {
-    title: 'Book Inventory System',
-    year: '2025',
-    href: 'https://book-inventory-frontend-plum.vercel.app',
-    image: '/image2.png',
-    alt: 'Book Inventory',
-    cta: 'Visit the Website',
-    tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'REST API', 'Sequelize', 'Supabase'],
+    title: '3D Ring Design',
+    year: '2026',
+    href: 'https://3d-ring-design.vercel.app',
+    image: '/ring-atelier.png',
+    alt: '3D engagement ring customizer',
+    cta: 'Design a Ring',
+    tech: ['Next.js', 'React', 'TypeScript', 'Three.js', 'React Three Fiber', 'Zustand', 'Tailwind CSS', 'Vitest'],
     description:
-      'A comprehensive Full-Stack application designed for efficient book collection management. It features advanced filtering by title, author, and genre, and supports multi-format data export (CSV/JSON) for reporting. Built with a robust Node.js & Express backend to ensure seamless data flow and high performance.',
-    tags: ['Data Export (CSV/JSON)', 'PostgreSQL Management'],
+      'A browser-based 3D engagement ring customizer. Users pick the metal, center stone, setting, halo, shoulders, side stones, and band size, and a React Three Fiber scene updates live. All ring geometry is generated procedurally in real millimeters with no 3D model files, and each design is shareable as a URL or PNG.',
+    tags: ['Real-Time 3D', 'Procedural Geometry'],
   },
 ];
 
