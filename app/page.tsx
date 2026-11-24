@@ -56,13 +56,17 @@ const projects = [
 ];
 
 const skills = [
-  { category: 'Languages', stack: ['JavaScript', 'Python', 'C++', 'Java', 'React-Native'] },
   {
-    category: 'Web Development',
-    stack: ['React.js', 'Next.js', 'Node.js', 'Express', 'FastAPI', 'HTML/CSS'],
+    category: 'Languages',
+    stack: ['Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'Bash', 'HTML/CSS'],
   },
-  { category: 'Database & Cloud', stack: ['PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'AWS'] },
-  { category: 'Engineering Tools', stack: ['Docker', 'Git', 'Jira', 'Postman', 'Agile(Scrum)'] },
+  {
+    category: 'Frameworks & Libraries',
+    stack: ['React', 'Next.js', 'React Native', 'Node.js', 'Express.js', 'FastAPI', 'Sequelize'],
+  },
+  { category: 'Databases', stack: ['PostgreSQL', 'MySQL', 'MongoDB', 'Elasticsearch', 'Firebase'] },
+  { category: 'Cloud & DevOps', stack: ['AWS', 'Docker', 'Docker Compose', 'CI/CD', 'Git'] },
+  { category: 'Testing & Tools', stack: ['pytest', 'Postman', 'REST APIs', 'JWT', 'Agile/Scrum'] },
 ];
 
 const jobs = [
@@ -171,20 +175,23 @@ export default function Portfolio() {
 
             <div className="mt-10 space-y-6 text-lg text-zinc-300 max-w-2xl leading-relaxed">
               <p>
-                Software Developer and current Master&apos;s student at Ontario Tech University,
-                holding an Honors degree in Software Development from Seneca Polytechnic.
-                I focus on developing clean, efficient code and optimizing distributed, high-performance software systems.
+                Software Developer and Master&apos;s student in Software Engineering at Ontario
+                Tech University, with an Honours Bachelor of Technology in Software Development
+                from Seneca Polytechnic, where I received the{' '}
+                <strong className="text-white">Software Development Scholarship</strong> across
+                multiple terms.
               </p>
               <p>
-                Through my internships at Needlist.org and Kubetools, I have proven my
-                ability to deliver results—reducing load times by{' '}
-                <strong className="text-white">3.5x</strong> and accelerating search speeds by{' '}
-                <strong className="text-white">50%</strong>. I focus on ensuring optimal
-                functionality through rigorous testing and efficient system
-                architecture.
+                At Kubetools, I built <strong className="text-white">MCP servers for Kubernetes</strong>{' '}
+                that let LLM agents query and manage containerized deployments, and cut search
+                latency by <strong className="text-white">50%</strong> by optimizing the
+                Elasticsearch/PostgreSQL data layer. At NeedList, I made global navigation{' '}
+                <strong className="text-white">3.5x</strong> more responsive through a TypeScript
+                front-end refactor and reduced API downtime by{' '}
+                <strong className="text-white">20%</strong>.
               </p>
               <p className="text-white font-medium border-l-2 border-accent pl-5">
-                Currently based in Toronto,{' '}
+                Currently based in the Greater Toronto Area,{' '}
                 <strong className="text-accent">I am fully open to relocation</strong> and
                 eager to contribute to innovative teams wherever the next challenge
                 leads.
