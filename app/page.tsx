@@ -66,7 +66,7 @@ const skills = [
 ];
 
 const jobs = [
-  { role: 'Full Stack Software Developer Intern', company: 'Needlist.org', date: '2025.09 - 2026.01' },
+  { role: 'Full Stack Software Developer Intern', company: 'Needlist.org', date: '2025.09 - 2025.12' },
   { role: 'System Development Engineer Intern', company: 'Kubetools Technologies Inc', date: '2025.01 - 2025.04' },
   { role: 'Customer Representative', company: 'Pantages Hotel', date: '2017 - 2018' },
 ];
